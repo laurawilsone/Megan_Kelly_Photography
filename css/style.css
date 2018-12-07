@@ -1,0 +1,173 @@
+
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+    background-color: white;
+}
+.header {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(110, 107, 107);
+}
+
+.hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.menu {
+    margin-top: 50px;
+    width: 100%;
+    text-align:center;
+} 
+.nav{
+    font-size: 20px;
+    display: inline-block;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    /*font-family: 'Raleway', sans-serif;*/
+    font-family: 'Julius Sans One', sans-serif;
+    padding-left: 15px;
+    line-height: 18px;
+}
+
+.nav li{
+    display:inline;
+}
+
+.nav a{
+    display:inline-block;
+    padding:10px;
+    color: rgb(150, 147, 144);
+
+}
+
+.main-container {
+ /*   background-color: aliceblue;*/
+    height: 100%;
+
+}
+
+.main-container:hover {
+   /* background-color: rgb(248, 241, 252); */
+   background-color: rgb(242, 246, 253);
+    
+}
+
+.col-container  {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+    position: relative;
+
+}
+
+.col-centered {
+    display: table-cell; /* Make elements inside the container behave like table cells */
+  /*  position: absolute; */
+    margin: 0;
+    top: 150px;
+    left: 63%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+    width: 300px;   
+
+}
+
+/*.card {
+    margin-top: 50px;
+    width: 400px;
+    height: 250px;
+} */
+
+.card-img-top {
+    height: 250px;
+    width: 300px;
+    margin-top: 50px;
+
+}
+
+/*.col-centered:hover {
+    background-color: rgb(250, 203, 198);
+    opacity: 70%;
+
+} */
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    /* background-color: rgb(248, 241, 252); */
+    background-color: rgb(242, 246, 253);
+    text-align: center;
+    border-top: 2px solid black;
+}
+
+
+
+/* About */
+
+
+.card-about {
+    border-width: 6px;
+    border-color: black; 
+    border-radius: 0;
+    margin-top: 50px;
+    margin-left: 29%;
+    width: 800px;
+  }
+  
+  .card-body{
+ /*   border-top: 5px solid black; */
+    border-radius: 0;
+    color: black;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .card-img-top-about {
+      width: 800px;
+  }
+
+  /* Contact */
+
+  #contact_form {
+      margin-left: 450px;
+      margin-top: 20px;
+  }
+
+  .input {
+      margin-top: 10px;
+  }
+
+  .form {
+    width: 400px;
+    height: 400px;
+   /* border: 1px solid black; */
+    padding: 15px;
+    margin: 25px;
+    margin-left: 50%;
+  }
+
+  .btn  {
+    background-color: black;
+    border: black;
+  }
+
+  .contact-me {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+   /* border: 1px solid black; */
+    padding: 25px;
+  }
