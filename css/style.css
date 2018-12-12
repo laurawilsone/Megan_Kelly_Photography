@@ -1,4 +1,5 @@
 
+
 html {
     height: 100%;
 }
@@ -14,14 +15,16 @@ body {
     text-align: center;
     margin-top: 50px;
     font-size: 50px;
-    font-family: 'Raleway', sans-serif;
-    color: rgb(110, 107, 107);
+   /* font-family: 'Raleway', sans-serif;*/
+    font-family: 'Julius Sans One', sans-serif;
+   /* font-family: 'Julius Sans One', sans-serif;*/
+    color: rgb(179, 171, 171);
 }
 
 .hr {
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(102, 100, 100, 0.425), rgba(0, 0, 0, 0));
 }
 .menu {
     margin-top: 50px;
@@ -59,9 +62,10 @@ body {
 
 .main-container:hover {
    /* background-color: rgb(248, 241, 252); */
-   background-color: rgb(242, 246, 253);
+   background-color: rgb(245, 248, 252);
+
     
-}
+} 
 
 .col-container  {
     display: table; /* Make the container element behave like a table */
@@ -95,11 +99,11 @@ body {
 
 }
 
-/*.col-centered:hover {
-    background-color: rgb(250, 203, 198);
-    opacity: 70%;
+/*.card-img-top:hover {
+    background-color: rgb(252, 244, 233);
+    opacity: 0.9;
 
-} */
+}*/
 
 .footer {
     position: absolute;
@@ -112,7 +116,375 @@ body {
     text-align: center;
     border-top: 2px solid black;
 }
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .main-container {
+        /*   background-color: aliceblue;*/
+           height: 100%;
+       
+       }
+    .col-container  {
+        display: table; /* Make the container element behave like a table */
+        width: 100%; /* Set full-width to expand the whole page */
+        position: relative;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    
+    }
+    
+    .col-centered {
+       /* display: table-cell; /* Make elements inside the container behave like table cells */
+      /*  position: absolute; */
+        margin: 0;
+        top: 150px;
+        left: 47%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%); 
+        width: 400px;  
+        display: flex;
+        align-items: center; 
+    } 
 
+    .card-img-top {
+        height: 250px;
+        width: 400px;
+        margin-top: 50px;
+
+    }
+    .footer {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 1rem;
+    /* background-color: rgb(248, 241, 252); */
+        background-color: rgb(242, 246, 253);
+        text-align: center;
+        border-top: 2px solid black;
+   }
+}
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .main-container {
+        /*   background-color: aliceblue;*/
+           height: 100%;
+       
+       }
+    .col-container  {
+        display: table; /* Make the container element behave like a table */
+        width: 100%; /* Set full-width to expand the whole page */
+        position: relative;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    
+    }
+    
+    .col-centered {
+       /* display: table-cell; /* Make elements inside the container behave like table cells */
+      /*  position: absolute; */
+        margin: 0;
+        top: 150px;
+        left: 47%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%); 
+        width: 400px;   
+        display: flex;
+        align-items: center;
+    
+    } 
+
+    .card-img-top {
+        height: 250px;
+        width: 400px;
+        margin-top: 50px;
+
+    }
+    .footer {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 1rem;
+        /* background-color: rgb(248, 241, 252); */
+        background-color: rgb(242, 246, 253);
+        text-align: center;
+        border-top: 2px solid black;
+       }
+}  
+  /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .main-container {
+        /*   background-color: aliceblue;*/
+           height: 100%;
+       
+       }
+    .col-container  {
+        display: table; /* Make the container element behave like a table */
+        width: 100%; /* Set full-width to expand the whole page */
+        position: relative;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    
+    }
+    
+    .col-centered {
+       /* display: table-cell; /* Make elements inside the container behave like table cells */
+      /*  position: absolute; */
+        margin: 0;
+        top: 150px;
+        left: 35%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%); 
+        width: 400px;   
+        display: flex;
+        align-items: center;
+    
+    } 
+
+    .card-img-top {
+        height: 250px;
+        width: 400px;
+        margin-top: 50px;
+
+    }
+    .footer {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 1rem;
+        /* background-color: rgb(248, 241, 252); */
+        background-color: rgb(242, 246, 253);
+        text-align: center;
+        border-top: 2px solid black;
+       }
+} 
+  /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .main-container {
+        /*   background-color: aliceblue;*/
+           height: 100%;
+       
+       }
+          
+       .col-container  {
+           display: table; /* Make the container element behave like a table */
+           width: 100%; /* Set full-width to expand the whole page */
+           position: relative;
+       
+       }
+       
+       .col-centered {
+           display: table-cell; /* Make elements inside the container behave like table cells */
+         /*  position: absolute; */
+           margin: 0;
+           top: 150px;
+           left: 25%;
+           margin-right: -50%;
+           transform: translate(-50%, -50%); 
+           width: 250px;   
+       
+       }
+       
+       .card-img-top {
+           height: 200px;
+           width: 250px;
+           margin-top: 50px;
+       
+       }
+       
+       .footer {
+           position: absolute;
+           right: 0;
+           bottom: 0;
+           left: 0;
+           padding: 1rem;
+           /* background-color: rgb(248, 241, 252); */
+           background-color: rgb(242, 246, 253);
+           text-align: center;
+           border-top: 2px solid black;
+       }
+}   
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .main-container {
+    /*   background-color: aliceblue;*/
+       height: 100%;
+   
+   }
+      
+   .col-container  {
+       display: table; /* Make the container element behave like a table */
+       width: 100%; /* Set full-width to expand the whole page */
+       position: relative;
+   
+   }
+   
+   .col-centered {
+       display: table-cell; /* Make elements inside the container behave like table cells */
+     /*  position: absolute; */
+       margin: 0;
+       top: 150px;
+       left: 27%;
+       margin-right: -50%;
+       transform: translate(-50%, -50%); 
+       width: 300px;   
+   
+   }
+   
+   .card-img-top {
+       height: 250px;
+       width: 300px;
+       margin-top: 50px;
+   
+   }
+   
+   .footer {
+       position: absolute;
+       right: 0;
+       bottom: 0;
+       left: 0;
+       padding: 1rem;
+       /* background-color: rgb(248, 241, 252); */
+       background-color: rgb(242, 246, 253);
+       text-align: center;
+       border-top: 2px solid black;
+   }
+}
+
+@media only screen and (min-width: 1300px) {
+    .main-container {
+        /*   background-color: aliceblue;*/
+           height: 100%;
+       
+       }
+          
+       .col-container  {
+           display: table; /* Make the container element behave like a table */
+           width: 100%; /* Set full-width to expand the whole page */
+           position: relative;
+       
+       }
+       
+       .col-centered {
+           display: table-cell; /* Make elements inside the container behave like table cells */
+         /*  position: absolute; */
+           margin: 0;
+           top: 150px;
+           left: 35%;
+           margin-right: -50%;
+           transform: translate(-50%, -50%); 
+           width: 300px;   
+       
+       }
+       
+       .card-img-top {
+           height: 250px;
+           width: 300px;
+           margin-top: 50px;
+       
+       }
+       
+       .footer {
+           position: absolute;
+           right: 0;
+           bottom: 0;
+           left: 0;
+           padding: 1rem;
+           /* background-color: rgb(248, 241, 252); */
+           background-color: rgb(242, 246, 253);
+           text-align: center;
+           border-top: 2px solid black;
+       }
+}
+
+@media only screen and (min-width: 1500px) {
+    .main-container {
+        /*   background-color: aliceblue;*/
+           height: 100%;
+       
+       }
+          
+       .col-container  {
+           display: table; /* Make the container element behave like a table */
+           width: 100%; /* Set full-width to expand the whole page */
+           position: relative;
+       
+       }
+       
+       .col-centered {
+           display: table-cell; /* Make elements inside the container behave like table cells */
+         /*  position: absolute; */
+           margin: 0;
+           top: 150px;
+           left: 42%;
+           margin-right: -50%;
+           transform: translate(-50%, -50%); 
+           width: 300px;   
+       
+       }
+       
+       .card-img-top {
+           height: 250px;
+           width: 300px;
+           margin-top: 50px;
+       
+       }
+       
+       .footer {
+           position: absolute;
+           right: 0;
+           bottom: 0;
+           left: 0;
+           padding: 1rem;
+           /* background-color: rgb(248, 241, 252); */
+           background-color: rgb(242, 246, 253);
+           text-align: center;
+           border-top: 2px solid black;
+       }
+}
+@media only screen and (min-width: 1924px) {
+    .main-container {
+        /*   background-color: aliceblue;*/
+           height: 100%;
+       
+       }
+          
+       .col-container  {
+           display: table; /* Make the container element behave like a table */
+           width: 100%; /* Set full-width to expand the whole page */
+           position: relative;
+       
+       }
+       
+       .col-centered {
+           display: table-cell; /* Make elements inside the container behave like table cells */
+         /*  position: absolute; */
+           margin: 0;
+           top: 150px;
+           left: 63%;
+           margin-right: -50%;
+           transform: translate(-50%, -50%); 
+           width: 300px;   
+       
+       }
+       
+       .card-img-top {
+           height: 250px;
+           width: 300px;
+           margin-top: 50px;
+       
+       }
+       
+       .footer {
+           position: absolute;
+           right: 0;
+           bottom: 0;
+           left: 0;
+           padding: 1rem;
+           /* background-color: rgb(248, 241, 252); */
+           background-color: rgb(242, 246, 253);
+           text-align: center;
+           border-top: 2px solid black;
+       }
+}
 
 
 /* About */
@@ -138,6 +510,194 @@ body {
   .card-img-top-about {
       width: 800px;
   }
+    /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .card-about {
+        border-width: 6px;
+        border-color: black; 
+        border-radius: 0;
+        margin-top: 50px;
+        margin-left: 8%;
+        width: 500px;
+      }
+      
+      .card-body{
+     /*   border-top: 5px solid black; */
+        border-radius: 0;
+        color: black;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+      }
+    
+      .card-img-top-about {
+          width: 500px;
+      }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .card-about {
+        border-width: 6px;
+        border-color: black; 
+        border-radius: 0;
+        margin-top: 50px;
+        margin-left: 8%;
+        width: 500px;
+      }
+      
+      .card-body{
+     /*   border-top: 5px solid black; */
+        border-radius: 0;
+        color: black;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+      }
+    
+      .card-img-top-about {
+          width: 500px;
+      }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .card-about {
+        border-width: 6px;
+        border-color: black; 
+        border-radius: 0;
+        margin-top: 50px;
+        margin-left: 18%;
+        width: 500px;
+      }
+      
+      .card-body{
+     /*   border-top: 5px solid black; */
+        border-radius: 0;
+        color: black;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+      }
+    
+      .card-img-top-about {
+          width: 500px;
+      }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .card-about {
+        border-width: 6px;
+        border-color: black; 
+        border-radius: 0;
+        margin-top: 50px;
+        margin-left: 20%;
+        width: 600px;
+      }
+      
+      .card-body{
+     /*   border-top: 5px solid black; */
+        border-radius: 0;
+        color: black;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+      }
+    
+      .card-img-top-about {
+          width: 600px;
+      }
+}  
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .card-about {
+        border-width: 6px;
+        border-color: black; 
+        border-radius: 0;
+        margin-top: 50px;
+        margin-left: 18%;
+        width: 800px;
+      }
+      
+      .card-body{
+     /*   border-top: 5px solid black; */
+        border-radius: 0;
+        color: black;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+      }
+    
+      .card-img-top-about {
+          width: 800px;
+      }
+}
+
+@media only screen and (min-width: 1200px) {
+    .card-about {
+        border-width: 6px;
+        border-color: black; 
+        border-radius: 0;
+        margin-top: 50px;
+        margin-left: 20%;
+        width: 800px;
+      }
+      
+      .card-body{
+     /*   border-top: 5px solid black; */
+        border-radius: 0;
+        color: black;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+      }
+    
+      .card-img-top-about {
+          width: 800px;
+      }
+}
+
+@media only screen and (min-width: 1500px) {
+    .card-about {
+        border-width: 6px;
+        border-color: black; 
+        border-radius: 0;
+        margin-top: 50px;
+        margin-left: 22%;
+        width: 800px;
+      }
+      
+      .card-body{
+     /*   border-top: 5px solid black; */
+        border-radius: 0;
+        color: black;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+      }
+    
+      .card-img-top-about {
+          width: 800px;
+      }
+}
+
+@media only screen and (min-width: 1924px) {
+    .card-about {
+        border-width: 6px;
+        border-color: black; 
+        border-radius: 0;
+        margin-top: 50px;
+        margin-left: 29%;
+        width: 800px;
+      }
+      
+      .card-body{
+     /*   border-top: 5px solid black; */
+        border-radius: 0;
+        color: black;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+      }
+    
+      .card-img-top-about {
+          width: 800px;
+      }
+}
 
   /* Contact */
 
@@ -171,3 +731,76 @@ body {
    /* border: 1px solid black; */
     padding: 25px;
   }
+
+  .footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  /* background-color: rgb(248, 241, 252); */
+  background-color: rgb(242, 246, 253);
+  text-align: center;
+  border-top: 2px solid black;
+}
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #contact_form {
+        margin-left: 450px;
+        margin-top: 20px;
+    }
+  
+    .input {
+        margin-top: 10px;
+    }
+  
+    .form {
+      width: 250px;
+      height: 250px;
+     /* border: 1px solid black; */
+      padding: 15px;
+      margin: 20px;
+      margin-left: 50%;
+
+    }
+  
+    .btn  {
+      background-color: black;
+      border: black;
+    }
+  
+    .contact-me {
+      position: absolute;
+      width: 250px;
+      height: 250px;
+     /* border: 1px solid black; */
+      padding: 25px;
+    }
+    .footer {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 1rem;
+        /* background-color: rgb(248, 241, 252); */
+        background-color: rgb(242, 246, 253);
+        text-align: center;
+        border-top: 2px solid black;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {..}
+@media only screen and (min-width: 1300px) {..}
+@media only screen and (min-width: 1500px) {..}
+@media only screen and (min-width: 1924px) {..}
