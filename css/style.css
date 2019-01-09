@@ -101,12 +101,6 @@ body {
 
 }
 
-/*.card-img-top:hover {
-    background-color: rgb(252, 244, 233);
-    opacity: 0.9;
-
-}*/
-
 .footer {
     position: absolute;
     right: 0;
@@ -445,7 +439,7 @@ body {
            border-top: 2px solid black;
        }
 }
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1900px) {
     .main-container {
         /*   background-color: aliceblue;*/
            height: 100%;
@@ -1148,6 +1142,21 @@ body {
     border: 2px solid black;
    }
 
+   /* Modal */
+   .modal-content {
+    height: 600px;
+    width: 600px;
+    margin-top: 50px;
+   }
+
+   .card-img-top-modal {
+    height: 350px;
+    width: 350px;
+    margin-top: 100px;
+    margin-left: 18%;
+ 
+}
+
    .footer {
        position: absolute;
        right: 0;
@@ -1159,3 +1168,407 @@ body {
        text-align: center;
        border-top: 2px solid black;
    }
+
+   @media only screen and (max-width: 600px) {
+    .main-container {
+        /*   background-color: aliceblue;*/
+           height: 100%;
+       
+       }
+    .col-container  {
+        display: table; /* Make the container element behave like a table */
+        width: 100%; /* Set full-width to expand the whole page */
+        position: relative;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    
+    }
+    
+    .col-centered {
+       /* display: table-cell; /* Make elements inside the container behave like table cells */
+      /*  position: absolute; */
+        margin: 0;
+        top: 150px;
+        left: 47%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%); 
+        width: 400px;  
+        display: flex;
+        align-items: center; 
+    } 
+
+    .card-img-top-page {
+        height: 250px;
+        width: 400px;
+        margin-top: 50px;
+
+    }
+
+    .card-img-top-page:hover {
+        border: 2px solid black;
+       }
+
+    .footer {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 1rem;
+    /* background-color: rgb(248, 241, 252); */
+        background-color: rgb(242, 246, 253);
+        text-align: center;
+        border-top: 2px solid black;
+   }
+}
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .main-container {
+        /*   background-color: aliceblue;*/
+           height: 100%;
+       
+       }
+    .col-container  {
+        display: table; /* Make the container element behave like a table */
+        width: 100%; /* Set full-width to expand the whole page */
+        position: relative;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    
+    }
+    
+    .col-centered {
+       /* display: table-cell; /* Make elements inside the container behave like table cells */
+      /*  position: absolute; */
+        margin: 0;
+        top: 150px;
+        left: 47%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%); 
+        width: 400px;   
+        display: flex;
+        align-items: center;
+    
+    } 
+
+    .card-img-top-page {
+        height: 250px;
+        width: 400px;
+        margin-top: 50px;
+
+    }
+
+    .card-img-top-page:hover {
+        border: 2px solid black;
+       }
+
+    .footer {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 1rem;
+        /* background-color: rgb(248, 241, 252); */
+        background-color: rgb(242, 246, 253);
+        text-align: center;
+        border-top: 2px solid black;
+       }
+}  
+  /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .main-container {
+        /*   background-color: aliceblue;*/
+           height: 100%;
+       
+       }
+    .col-container  {
+        display: table; /* Make the container element behave like a table */
+        width: 100%; /* Set full-width to expand the whole page */
+        position: relative;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    
+    }
+    
+    .col-centered {
+       /* display: table-cell; /* Make elements inside the container behave like table cells */
+      /*  position: absolute; */
+        margin: 0;
+        top: 150px;
+        left: 35%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%); 
+        width: 400px;   
+        display: flex;
+        align-items: center;
+    
+    } 
+
+    .card-img-top-page {
+        height: 250px;
+        width: 400px;
+        margin-top: 50px;
+
+    }
+
+    .card-img-top-page:hover {
+        border: 2px solid black;
+       }
+
+    .footer {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 1rem;
+        /* background-color: rgb(248, 241, 252); */
+        background-color: rgb(242, 246, 253);
+        text-align: center;
+        border-top: 2px solid black;
+       }
+} 
+  /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .main-container {
+        /*   background-color: aliceblue;*/
+           height: 100%;
+       
+       }
+          
+       .col-container  {
+           display: table; /* Make the container element behave like a table */
+           width: 100%; /* Set full-width to expand the whole page */
+           position: relative;
+       
+       }
+       
+       .col-centered {
+           display: table-cell; /* Make elements inside the container behave like table cells */
+         /*  position: absolute; */
+           margin: 0;
+           top: 150px;
+           left: 25%;
+           margin-right: -50%;
+           transform: translate(-50%, -50%); 
+           width: 250px;   
+       
+       }
+       
+       .card-img-top-page {
+           height: 200px;
+           width: 250px;
+           margin-top: 50px;
+       
+       }
+
+       .card-img-top-page:hover {
+        border: 2px solid black;
+       }
+       
+       .footer {
+           position: absolute;
+           right: 0;
+           bottom: 0;
+           left: 0;
+           padding: 1rem;
+           /* background-color: rgb(248, 241, 252); */
+           background-color: rgb(242, 246, 253);
+           text-align: center;
+           border-top: 2px solid black;
+       }
+}   
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .main-container {
+    /*   background-color: aliceblue;*/
+       height: 100%;
+   
+   }
+      
+   .col-container  {
+       display: table; /* Make the container element behave like a table */
+       width: 100%; /* Set full-width to expand the whole page */
+       position: relative;
+   
+   }
+   
+   .col-centered {
+       display: table-cell; /* Make elements inside the container behave like table cells */
+     /*  position: absolute; */
+       margin: 0;
+       top: 150px;
+       left: 27%;
+       margin-right: -50%;
+       transform: translate(-50%, -50%); 
+       width: 300px;   
+   
+   }
+   
+   .card-img-top-page {
+       height: 250px;
+       width: 300px;
+       margin-top: 50px;
+   
+   }
+
+   .card-img-top-page:hover {
+    border: 2px solid black;
+   }
+   
+   .footer {
+       position: absolute;
+       right: 0;
+       bottom: 0;
+       left: 0;
+       padding: 1rem;
+       /* background-color: rgb(248, 241, 252); */
+       background-color: rgb(242, 246, 253);
+       text-align: center;
+       border-top: 2px solid black;
+   }
+}
+
+@media only screen and (min-width: 1300px) {
+    .main-container {
+        /*   background-color: aliceblue;*/
+           height: 100%;
+       
+       }
+          
+       .col-container  {
+           display: table; /* Make the container element behave like a table */
+           width: 100%; /* Set full-width to expand the whole page */
+           position: relative;
+       
+       }
+       
+       .col-centered {
+           display: table-cell; /* Make elements inside the container behave like table cells */
+         /*  position: absolute; */
+           margin: 0;
+           top: 150px;
+           left: 35%;
+           margin-right: -50%;
+           transform: translate(-50%, -50%); 
+           width: 300px;   
+       
+       }
+       
+       .card-img-top-page {
+           height: 250px;
+           width: 300px;
+           margin-top: 50px;
+       
+       }
+
+       .card-img-top-page:hover {
+        border: 2px solid black;
+       }
+       
+       .footer {
+           position: absolute;
+           right: 0;
+           bottom: 0;
+           left: 0;
+           padding: 1rem;
+           /* background-color: rgb(248, 241, 252); */
+           background-color: rgb(242, 246, 253);
+           text-align: center;
+           border-top: 2px solid black;
+       }
+}
+
+@media only screen and (min-width: 1500px) {
+    .main-container {
+        /*   background-color: aliceblue;*/
+           height: 100%;
+       
+       }
+          
+       .col-container  {
+           display: table; /* Make the container element behave like a table */
+           width: 100%; /* Set full-width to expand the whole page */
+           position: relative;
+       
+       }
+       
+       .col-centered {
+           display: table-cell; /* Make elements inside the container behave like table cells */
+         /*  position: absolute; */
+           margin: 0;
+           top: 150px;
+           left: 42%;
+           margin-right: -50%;
+           transform: translate(-50%, -50%); 
+           width: 300px;   
+       
+       }
+       
+       .card-img-top-page {
+           height: 250px;
+           width: 300px;
+           margin-top: 50px;
+       
+       }
+
+       .card-img-top-page:hover {
+        border: 2px solid black;
+       }
+       
+       .footer {
+           position: absolute;
+           right: 0;
+           bottom: 0;
+           left: 0;
+           padding: 1rem;
+           /* background-color: rgb(248, 241, 252); */
+           background-color: rgb(242, 246, 253);
+           text-align: center;
+           border-top: 2px solid black;
+       }
+}
+@media only screen and (min-width: 1900px) {
+    .main-container {
+        /*   background-color: aliceblue;*/
+           height: 100%;
+       
+       }
+          
+       .col-container  {
+           display: table; /* Make the container element behave like a table */
+           width: 100%; /* Set full-width to expand the whole page */
+           position: relative;
+       
+       }
+       
+       .col-centered {
+           display: table-cell; /* Make elements inside the container behave like table cells */
+         /*  position: absolute; */
+           margin: 0;
+           top: 150px;
+           left: 63%;
+           margin-right: -50%;
+           transform: translate(-50%, -50%); 
+           width: 300px;   
+       
+       }
+       
+       .card-img-top-page {
+           height: 250px;
+           width: 300px;
+           margin-top: 50px;
+       
+       }
+
+       .card-img-top-page:hover {
+        border: 2px solid black;
+       }
+       
+       .footer {
+           position: absolute;
+           right: 0;
+           bottom: 0;
+           left: 0;
+           padding: 1rem;
+           /* background-color: rgb(248, 241, 252); */
+           background-color: rgb(242, 246, 253);
+           text-align: center;
+           border-top: 2px solid black;
+       }
+}
