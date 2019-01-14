@@ -68,7 +68,7 @@ body {
     
 } 
 
-.col-container  {
+.col.container  {
     display: table; /* Make the container element behave like a table */
     width: 100%; /* Set full-width to expand the whole page */
     position: relative;
@@ -1109,33 +1109,43 @@ body {
 .main-container {
     /*   background-color: aliceblue;*/
        height: 100%;
+
    
+   }
+
+   .container {
+       height: 100%;
+      
    }
       
-   .col-container  {
+  .col-container-pages  {
        display: table; /* Make the container element behave like a table */
        width: 100%; /* Set full-width to expand the whole page */
-       position: relative;
+     /*  position: relative;*/
+       width: 300px;
+       margin-left: 5.5%;
+    
    
-   }
+   } 
    
-   .col-centered {
-       display: table-cell; /* Make elements inside the container behave like table cells */
-     /*  position: absolute; */
-       margin: 0;
-       top: 150px;
-       left: 35%;
-       margin-right: -50%;
-       transform: translate(-50%, -50%); 
-       width: 300px;   
+   .col-centered-pages {
+     /*  display: table-cell; /* Make elements inside the container behave like table cells */
+      transform: translate(-0%, -50%); 
+      top: 150px;
+      width: 300px;   
+      position: relative;
+      display: table-cell;
+      overflow: hidden;
+      max-width: 60%;
+      height: auto;
+  }
    
-   }
    
-   .card-img-top-page {
+  .card-img-top-page {
        height: 250px;
        width: 300px;
        margin-top: 50px;
-    
+     
    }
    
    .card-img-top-page:hover {
@@ -1144,18 +1154,37 @@ body {
 
    /* Modal */
    .modal-content {
-    height: 600px;
-    width: 600px;
+    height: 800px;
+    width: 800px;
     margin-top: 50px;
    }
 
-   .card-img-top-modal {
-    height: 350px;
-    width: 350px;
-    margin-top: 100px;
-    margin-left: 18%;
+   .card-img-top-page-modal {
+    height: 550px;
+    width: 650px;
+    margin-top: 15%;
+    margin-left: 9%;
+    
  
 }
+
+/* Andrea's Box */
+.hvrbox * {
+    box-sizing: border-box;
+    font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: transparent;
+    border-color: transparent;
+  }
+  .hvrbox {
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+      max-width: 40%;
+      height: auto;
+  }
+  .hvrbox img {
+      max-width: 100%;
+  }
 
    .footer {
        position: absolute;
