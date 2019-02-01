@@ -59,18 +59,18 @@
 
             <!-- Contact Form -->
             <div class="form">
-            <form class="needs-validation" novalidate>
+                <form name="sentMessage" id="contactForm" method="POST"action="https://formspree.io/laura.wils204@gmail.com">
                     <div class="form-row">
                       <div class="col-md-6 mb-3">
                         <label for="validationTooltip01">First name</label>
-                        <input type="text" class="form-control" id="validationTooltip01" placeholder="" value="" required>
+                        <input type="text" id="name" name="Name" class="form-control" id="validationTooltip01" placeholder="" value="" required>
                         <div class="valid-tooltip">
                           Looks good!
                         </div>
                       </div>
                       <div class="col-md-6 mb-3">
                         <label for="validationTooltip02">Last name</label>
-                        <input type="text" class="form-control" id="validationTooltip02" placeholder="" value="" required>
+                        <input type="text" id="name" name="Name" class="form-control" id="validationTooltip02" placeholder="" value="" required>
                         <div class="valid-tooltip">
                           Looks good!
                         </div>
@@ -82,7 +82,7 @@
                           <div class="input-group-prepend">
                           <!--  <span class="input-group-text" id="validationTooltipUsernamePrepend"></span> -->
                           </div>
-                          <input type="text" class="form-control" id="validationTooltipUsername" placeholder="" aria-describedby="validationTooltipUsernamePrepend" required>
+                          <input type="text" id="email" name="_replyto" class="form-control" id="validationTooltipUsername" placeholder="" aria-describedby="validationTooltipUsernamePrepend" required>
                           <div class="invalid-tooltip">
                             Please choose a unique and valid username.
                           </div>
@@ -90,11 +90,9 @@
                       </div>
                       <div class="form-group">
                             <label for="exampleFormControlTextarea1">Comments</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                            <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="4"></textarea>
                           </div>
-                        </form>
-
-                    <button class="btn btn-primary" type="submit">Submit form</button>
+                    <button class="btn btn-primary" value="Send" type="submit">Submit form</button>
                   </form>
                 </div>
             </div>

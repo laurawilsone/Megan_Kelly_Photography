@@ -149,17 +149,6 @@ body {
         margin-top: 50px;
 
     }
-    .footer {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        padding: 1rem;
-    /* background-color: rgb(248, 241, 252); */
-        background-color: rgb(242, 246, 253);
-        text-align: center;
-        border-top: 2px solid black;
-   }
 }
   /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -196,17 +185,6 @@ body {
         margin-top: 50px;
 
     }
-    .footer {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        padding: 1rem;
-        /* background-color: rgb(248, 241, 252); */
-        background-color: rgb(242, 246, 253);
-        text-align: center;
-        border-top: 2px solid black;
-       }
 }  
   /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -243,17 +221,6 @@ body {
         margin-top: 50px;
 
     }
-    .footer {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        padding: 1rem;
-        /* background-color: rgb(248, 241, 252); */
-        background-color: rgb(242, 246, 253);
-        text-align: center;
-        border-top: 2px solid black;
-       }
 } 
   /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -287,18 +254,6 @@ body {
            width: 250px;
            margin-top: 50px;
        
-       }
-       
-       .footer {
-           position: absolute;
-           right: 0;
-           bottom: 0;
-           left: 0;
-           padding: 1rem;
-           /* background-color: rgb(248, 241, 252); */
-           background-color: rgb(242, 246, 253);
-           text-align: center;
-           border-top: 2px solid black;
        }
 }   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -334,32 +289,18 @@ body {
        margin-top: 50px;
    
    }
-   
-   .footer {
-       position: absolute;
-       right: 0;
-       bottom: 0;
-       left: 0;
-       padding: 1rem;
-       /* background-color: rgb(248, 241, 252); */
-       background-color: rgb(242, 246, 253);
-       text-align: center;
-       border-top: 2px solid black;
-   }
 }
 
 @media only screen and (min-width: 1300px) {
     .main-container {
         /*   background-color: aliceblue;*/
-           height: 100%;
-       
+           height: 100%;     
        }
           
        .col-container  {
            display: table; /* Make the container element behave like a table */
            width: 100%; /* Set full-width to expand the whole page */
-           position: relative;
-       
+           position: relative;      
        }
        
        .col-centered {
@@ -370,28 +311,15 @@ body {
            left: 35%;
            margin-right: -50%;
            transform: translate(-50%, -50%); 
-           width: 300px;   
-       
+           width: 300px;        
        }
        
        .card-img-top {
            height: 250px;
            width: 300px;
            margin-top: 50px;
-       
        }
        
-       .footer {
-           position: absolute;
-           right: 0;
-           bottom: 0;
-           left: 0;
-           padding: 1rem;
-           /* background-color: rgb(248, 241, 252); */
-           background-color: rgb(242, 246, 253);
-           text-align: center;
-           border-top: 2px solid black;
-       }
 }
 
 @media only screen and (min-width: 1500px) {
@@ -427,30 +355,17 @@ body {
        
        }
        
-       .footer {
-           position: absolute;
-           right: 0;
-           bottom: 0;
-           left: 0;
-           padding: 1rem;
-           /* background-color: rgb(248, 241, 252); */
-           background-color: rgb(242, 246, 253);
-           text-align: center;
-           border-top: 2px solid black;
-       }
 }
 @media only screen and (min-width: 1900px) {
     .main-container {
         /*   background-color: aliceblue;*/
-           height: 100%;
-       
+           height: 100%; 
        }
           
        .col-container  {
            display: table; /* Make the container element behave like a table */
            width: 100%; /* Set full-width to expand the whole page */
-           position: relative;
-       
+           position: relative;   
        }
        
        .col-centered {
@@ -461,27 +376,13 @@ body {
            left: 63%;
            margin-right: -50%;
            transform: translate(-50%, -50%); 
-           width: 300px;   
-       
+           width: 300px;      
        }
        
        .card-img-top {
            height: 250px;
            width: 300px;
            margin-top: 50px;
-       
-       }
-       
-       .footer {
-           position: absolute;
-           right: 0;
-           bottom: 0;
-           left: 0;
-           padding: 1rem;
-           /* background-color: rgb(248, 241, 252); */
-           background-color: rgb(242, 246, 253);
-           text-align: center;
-           border-top: 2px solid black;
        }
 }
 
@@ -731,17 +632,6 @@ body {
     padding: 25px;
   }
 
-  .footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  /* background-color: rgb(248, 241, 252); */
-  background-color: rgb(242, 246, 253);
-  text-align: center;
-  border-top: 2px solid black;
-}
 
   /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -775,17 +665,6 @@ body {
       height: 250px;
      /* border: 1px solid black; */
       padding: 25px;
-    }
-    .footer {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        padding: 1rem;
-        /* background-color: rgb(248, 241, 252); */
-        background-color: rgb(242, 246, 253);
-        text-align: center;
-        border-top: 2px solid black;
     }
 } 
 
@@ -822,17 +701,6 @@ body {
      /* border: 1px solid black; */
       padding: 25px;
     }
-    .footer {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        padding: 1rem;
-        /* background-color: rgb(248, 241, 252); */
-        background-color: rgb(242, 246, 253);
-        text-align: center;
-        border-top: 2px solid black;
-    }
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -867,17 +735,6 @@ body {
       height: 250px;
      /* border: 1px solid black; */
       padding: 25px;
-    }
-    .footer {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        padding: 1rem;
-        /* background-color: rgb(248, 241, 252); */
-        background-color: rgb(242, 246, 253);
-        text-align: center;
-        border-top: 2px solid black;
     }
 } 
 
@@ -914,17 +771,6 @@ body {
      /* border: 1px solid black; */
       padding: 25px;
     }
-    .footer {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        padding: 1rem;
-        /* background-color: rgb(248, 241, 252); */
-        background-color: rgb(242, 246, 253);
-        text-align: center;
-        border-top: 2px solid black;
-    }
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -960,18 +806,8 @@ body {
      /* border: 1px solid black; */
       padding: 25px;
     }
-    .footer {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        padding: 1rem;
-        /* background-color: rgb(248, 241, 252); */
-        background-color: rgb(242, 246, 253);
-        text-align: center;
-        border-top: 2px solid black;
-    }
 }
+
 @media only screen and (min-width: 1300px) {
     #contact_form {
         margin-left: 300px;
@@ -1004,17 +840,7 @@ body {
      /* border: 1px solid black; */
       padding: 25px;
     }
-    .footer {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        padding: 1rem;
-        /* background-color: rgb(248, 241, 252); */
-        background-color: rgb(242, 246, 253);
-        text-align: center;
-        border-top: 2px solid black;
-    }
+
 }
 @media only screen and (min-width: 1500px) {
     #contact_form {
@@ -1048,17 +874,7 @@ body {
      /* border: 1px solid black; */
       padding: 25px;
     }
-    .footer {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        padding: 1rem;
-        /* background-color: rgb(248, 241, 252); */
-        background-color: rgb(242, 246, 253);
-        text-align: center;
-        border-top: 2px solid black;
-    }
+
 }
 @media only screen and (min-width: 1924px) {
     #contact_form {
@@ -1091,17 +907,6 @@ body {
       height: 400px;
      /* border: 1px solid black; */
       padding: 25px;
-    }
-    .footer {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        padding: 1rem;
-        /* background-color: rgb(248, 241, 252); */
-        background-color: rgb(242, 246, 253);
-        text-align: center;
-        border-top: 2px solid black;
     }
 }
 
@@ -1168,35 +973,6 @@ body {
  
 }
 
-/* Andrea's Box */
-.hvrbox * {
-    box-sizing: border-box;
-    font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    background: transparent;
-    border-color: transparent;
-  }
-  .hvrbox {
-      position: relative;
-      display: inline-block;
-      overflow: hidden;
-      max-width: 40%;
-      height: auto;
-  }
-  .hvrbox img {
-      max-width: 100%;
-  }
-
-   .footer {
-       position: absolute;
-       right: 0;
-       bottom: 0;
-       left: 0;
-       padding: 1rem;
-       /* background-color: rgb(248, 241, 252); */
-       background-color: rgb(242, 246, 253);
-       text-align: center;
-       border-top: 2px solid black;
-   }
 
    @media only screen and (max-width: 600px) {
     .main-container {
@@ -1236,17 +1012,6 @@ body {
         border: 2px solid black;
        }
 
-    .footer {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        padding: 1rem;
-    /* background-color: rgb(248, 241, 252); */
-        background-color: rgb(242, 246, 253);
-        text-align: center;
-        border-top: 2px solid black;
-   }
 }
   /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -1286,18 +1051,6 @@ body {
 
     .card-img-top-page:hover {
         border: 2px solid black;
-       }
-
-    .footer {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        padding: 1rem;
-        /* background-color: rgb(248, 241, 252); */
-        background-color: rgb(242, 246, 253);
-        text-align: center;
-        border-top: 2px solid black;
        }
 }  
   /* Medium devices (landscape tablets, 768px and up) */
@@ -1339,18 +1092,6 @@ body {
     .card-img-top-page:hover {
         border: 2px solid black;
        }
-
-    .footer {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        padding: 1rem;
-        /* background-color: rgb(248, 241, 252); */
-        background-color: rgb(242, 246, 253);
-        text-align: center;
-        border-top: 2px solid black;
-       }
 } 
   /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -1388,18 +1129,6 @@ body {
 
        .card-img-top-page:hover {
         border: 2px solid black;
-       }
-       
-       .footer {
-           position: absolute;
-           right: 0;
-           bottom: 0;
-           left: 0;
-           padding: 1rem;
-           /* background-color: rgb(248, 241, 252); */
-           background-color: rgb(242, 246, 253);
-           text-align: center;
-           border-top: 2px solid black;
        }
 }   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -1439,18 +1168,6 @@ body {
    .card-img-top-page:hover {
     border: 2px solid black;
    }
-   
-   .footer {
-       position: absolute;
-       right: 0;
-       bottom: 0;
-       left: 0;
-       padding: 1rem;
-       /* background-color: rgb(248, 241, 252); */
-       background-color: rgb(242, 246, 253);
-       text-align: center;
-       border-top: 2px solid black;
-   }
 }
 
 @media only screen and (min-width: 1300px) {
@@ -1488,18 +1205,6 @@ body {
 
        .card-img-top-page:hover {
         border: 2px solid black;
-       }
-       
-       .footer {
-           position: absolute;
-           right: 0;
-           bottom: 0;
-           left: 0;
-           padding: 1rem;
-           /* background-color: rgb(248, 241, 252); */
-           background-color: rgb(242, 246, 253);
-           text-align: center;
-           border-top: 2px solid black;
        }
 }
 
@@ -1539,18 +1244,6 @@ body {
        .card-img-top-page:hover {
         border: 2px solid black;
        }
-       
-       .footer {
-           position: absolute;
-           right: 0;
-           bottom: 0;
-           left: 0;
-           padding: 1rem;
-           /* background-color: rgb(248, 241, 252); */
-           background-color: rgb(242, 246, 253);
-           text-align: center;
-           border-top: 2px solid black;
-       }
 }
 @media only screen and (min-width: 1900px) {
     .main-container {
@@ -1587,17 +1280,5 @@ body {
 
        .card-img-top-page:hover {
         border: 2px solid black;
-       }
-       
-       .footer {
-           position: absolute;
-           right: 0;
-           bottom: 0;
-           left: 0;
-           padding: 1rem;
-           /* background-color: rgb(248, 241, 252); */
-           background-color: rgb(242, 246, 253);
-           text-align: center;
-           border-top: 2px solid black;
        }
 }
