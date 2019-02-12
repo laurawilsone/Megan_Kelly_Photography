@@ -980,21 +980,21 @@ body {
            height: 100%;
        
        }
-    .col-container  {
-        display: table; /* Make the container element behave like a table */
+    .col-container-pages  {
+      /*  display: table; /* Make the container element behave like a table */
         width: 100%; /* Set full-width to expand the whole page */
-        position: relative;
+        position: relative; 
         grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     
     }
     
-    .col-centered {
+    .col-centered-pages {
        /* display: table-cell; /* Make elements inside the container behave like table cells */
       /*  position: absolute; */
         margin: 0;
         top: 150px;
         left: 47%;
-        margin-right: -50%;
+        margin-right: 0%;
         transform: translate(-50%, -50%); 
         width: 400px;  
         display: flex;
@@ -1020,21 +1020,21 @@ body {
            height: 100%;
        
        }
-    .col-container  {
-        display: table; /* Make the container element behave like a table */
+    .col-container-pages  {
+      /*  display: table; /* Make the container element behave like a table */
         width: 100%; /* Set full-width to expand the whole page */
-        position: relative;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        position: relative; 
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     
     }
     
-    .col-centered {
+    .col-centered-pages {
        /* display: table-cell; /* Make elements inside the container behave like table cells */
       /*  position: absolute; */
         margin: 0;
         top: 150px;
         left: 47%;
-        margin-right: -50%;
+        margin-right: 0%;
         transform: translate(-50%, -50%); 
         width: 400px;   
         display: flex;
@@ -1064,7 +1064,7 @@ body {
         display: table; /* Make the container element behave like a table */
         width: 100%; /* Set full-width to expand the whole page */
         position: relative;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     
     }
     
